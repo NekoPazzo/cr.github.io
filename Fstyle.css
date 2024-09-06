@@ -473,8 +473,8 @@ body {
 }
 
 .menuu{
-    width: 350px; 
-    height: 360px;
+    width: 410px; 
+    height: 420px;
     box-align: center;
     display: block;
     margin-left: auto;
@@ -518,16 +518,22 @@ body {
     margin-left: -110%;
 }
 
-.menuu{
-    width: 350px; 
-    height: 360px;
-    box-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;;
-}
+
 
  }
+
+ @media screen and (max-width: 390px) {
+    .menuu{
+        width: 330px; 
+        height: 340px;
+        box-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;;
+    }
+
+
+}
  
 
 
